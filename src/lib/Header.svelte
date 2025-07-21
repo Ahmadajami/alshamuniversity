@@ -14,11 +14,7 @@
 			<div class="flex items-center justify-between gap-x-1">
 				<div class="inline-flex">
 					<Avatar.Root>
-						<Avatar.Image
-							src="http://my.aspu.edu.sy/storage/images/documents/_sis/add/student_picture/34467.116.jpg?v=2025.07.21.18.58.37"
-							alt="@shadcn"
-							loading="lazy"
-						/>
+						<Avatar.Image src="/images/dani.jpg" alt="@Dani alMasri" loading="lazy" />
 						<Avatar.Fallback>DA</Avatar.Fallback>
 					</Avatar.Root>
 					<span class="mx-2 my-2 text-sm">023071552</span>

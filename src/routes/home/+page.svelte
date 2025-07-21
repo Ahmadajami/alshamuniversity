@@ -124,3 +124,6 @@
 		</div>
 	</div>
 </div>
+<article class=" container mx-auto my-2 text-center text-pretty">
+	<h1 class="">معلومات الفصول السابقة غير متوفرة</h1>
+</article>

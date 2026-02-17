@@ -7,7 +7,7 @@
 			courseName: 'القانون الدولي العام',
 			courseCode: 'RQL316',
 			credits: 3,
-			detail1: '18 من 25',
+			detail1: '25 من 25',
 			detail2: '7 من 15', // Low score
 			sumTest: '25 من 40', // 18 + 7 = 25
 			finalTest: '47 من 60',

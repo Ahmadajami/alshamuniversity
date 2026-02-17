@@ -7,25 +7,25 @@
 			courseName: 'القانون الدولي العام',
 			courseCode: 'RQL316',
 			credits: 3,
-			detail1: '25 من 25',
-			detail2: '7 من 15', // Low score
-			sumTest: '25 من 40', // 18 + 7 = 25
-			finalTest: '47 من 60',
-			total: '72', // 25 + 47 = 72
-			points: 2.0, // Standard 2.0 for C
-			grade: 'C'
+			detail1: '10 من 25',
+			detail2: '11 من 15', // Low score
+			sumTest: '21 من 40', // 18 + 7 = 25
+			finalTest: '27 من 60',
+			total: '48', // 25 + 47 = 72
+			points: 0.0, // Standard 2.0 for C
+			grade: 'F'
 		},
 		{
 			courseName: ' قانون العقوبات الخاص (1) الواقعة على الأشخاص و الأموال ',
 			courseCode: 'RQL526',
 			credits: 3,
-			detail1: '20 من 25',
-			detail2: '8 من 15', // Low score
-			sumTest: '28 من 40', // 20 + 8 = 28
-			finalTest: '49 من 60',
-			total: '77', // 28 + 49 = 77
-			points: 2.5, // Standard 2.5 for C+
-			grade: 'C+'
+			detail1: '16 من 25',
+			detail2: '10 من 15', // Low score
+			sumTest: '26 من 40', // 20 + 8 = 28
+			finalTest: '41 من 60',
+			total: '67', // 28 + 49 = 77
+			points: 2.2, // Standard 2.5 for C+
+			grade: 'C'
 		},
 		{
 			courseName: ' القانون الإداري (2)',
@@ -43,25 +43,25 @@
 			courseName: '  الأسناد التجارية(3)القانون التجاري',
 			courseCode: 'RQL-420',
 			credits: 3,
-			detail1: '19 من 25',
-			detail2: '7 من 15', // Low score
-			sumTest: '26 من 40', // 19 + 7 = 26
-			finalTest: '44 من 60',
-			total: '70', // 26 + 44 = 70
+			detail1: '14 من 25',
+			detail2: '13 من 15', // Low score
+			sumTest: '27 من 40', // 19 + 7 = 26
+			finalTest: '45 من 60',
+			total: '72', // 26 + 44 = 70
 			points: 2.0, // Standard 2.0 for C
-			grade: 'C'
+			grade: 'C+'
 		},
 		{
 			courseName: 'علم النفس ',
 			courseCode: 'RQUE5',
 			credits: 2,
-			detail1: '21 من 25',
-			detail2: '9 من 15', // Low/Medium score
+			detail1: '19 من 25',
+			detail2: '11 من 15', // Low/Medium score
 			sumTest: '30 من 40', // 21 + 9 = 30
-			finalTest: '51 من 60',
-			total: '81', // 30 + 51 = 81
-			points: 3.0, // Standard 3.0 for B
-			grade: 'B'
+			finalTest: '49 من 60',
+			total: '79', // 30 + 51 = 81
+			points: 2.7, // Standard 3.0 for B
+			grade: 'B-'
 		}
 	];
 </script>

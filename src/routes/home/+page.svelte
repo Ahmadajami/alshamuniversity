@@ -1,69 +1,69 @@
 <script lang="ts">
 	import Header from '$lib/Header.svelte';
-	let { data } = $props();
 
 	const courseGrades = [
 		{
-			courseName: 'القانون الدولي العام',
+			courseName: 'القانون التجاري (3)',
 			courseCode: 'RQL316',
 			credits: 3,
-			detail1: '10 من 25',
-			detail2: '11 من 15', // Low score
-			sumTest: '21 من 40', // 18 + 7 = 25
-			finalTest: '27 من 60',
-			total: '48', // 25 + 47 = 72
-			points: 0.0, // Standard 2.0 for C
-			grade: 'F'
+			detail1: '19 من 25',
+			detail2: '-',
+			sumTest: '-',
+			finalTest: '-',
+			total: '-',
+			points: 0,
+			grade: '-'
 		},
 		{
-			courseName: ' قانون العقوبات الخاص (1) الواقعة على الأشخاص و الأموال ',
+			courseName: ' القانون الدولي العام',
 			courseCode: 'RQL526',
 			credits: 3,
-			detail1: '16 من 25',
-			detail2: '10 من 15', // Low score
-			sumTest: '26 من 40', // 20 + 8 = 28
-			finalTest: '41 من 60',
-			total: '67', // 28 + 49 = 77
-			points: 2.2, // Standard 2.5 for C+
-			grade: 'C'
+			detail1: '17 من 25',
+			detail2: '-',
+			sumTest: '-',
+			finalTest: '-',
+			total: '-',
+			points: 0,
+			grade: '-'
 		},
 		{
-			courseName: ' القانون الإداري (2)',
+			courseName: ' المنطق العلمي',
 			courseCode: 'RQL-420',
-			credits: 3,
-			detail1: '16 من 25',
-			detail2: '6 من 15', // Low score
-			sumTest: '22 من 40', // 16 + 6 = 22
-			finalTest: '35 من 60',
-			total: '57', // 22 + 45 = 67
-			points: 1.5, // Standard 1.5 for D+
-			grade: 'D+'
-		},
-		{
-			courseName: '  الأسناد التجارية(3)القانون التجاري',
-			courseCode: 'RQL-420',
-			credits: 3,
-			detail1: '14 من 25',
-			detail2: '13 من 15', // Low score
-			sumTest: '27 من 40', // 19 + 7 = 26
-			finalTest: '45 من 60',
-			total: '72', // 26 + 44 = 70
-			points: 2.0, // Standard 2.0 for C
-			grade: 'C+'
-		},
-		{
-			courseName: 'علم النفس ',
-			courseCode: 'RQUE5',
 			credits: 2,
-			detail1: '19 من 25',
-			detail2: '11 من 15', // Low/Medium score
-			sumTest: '30 من 40', // 21 + 9 = 30
-			finalTest: '49 من 60',
-			total: '79', // 30 + 51 = 81
-			points: 2.7, // Standard 3.0 for B
-			grade: 'B-'
+			detail1: '22 من 25',
+			detail2: '-',
+			sumTest: '-',
+			finalTest: '-',
+			total: '-',
+			points: 0,
+			grade: '-'
+		},
+		{
+			courseName: ' الاقتصاد السوري',
+			courseCode: 'RQL-420',
+			credits: 2,
+			detail1: '18 من 25',
+			detail2: '-',
+			sumTest: '-',
+			finalTest: '-',
+			total: '-',
+			points: 0,
+			grade: '-'
+		},
+		{
+			courseName: 'الحقوق العينية الاصلية',
+			courseCode: 'RQUE5',
+			credits: 3,
+			detail1: '16 من 25',
+			detail2: '-',
+			sumTest: '-',
+			finalTest: '-',
+			total: '-',
+			points: 0,
+			grade: '-'
 		}
 	];
+	let { data } = $props();
 </script>
 
 <svelte:head>
@@ -97,7 +97,7 @@
 					</tr>
 				</thead>
 				<tbody class="text-gray-800">
-					{#each courseGrades as course}
+					{#each courseGrades as course, i (i)}
 						<tr>
 							<td class="border px-2 py-1">{course.courseName}</td>
 							<td dir="ltr" class="border px-2 py-1">{course.courseCode}</td>
